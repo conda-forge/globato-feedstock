@@ -40,6 +40,7 @@ requirements:
     - matplotlib-base
     - numpy >1.24
     - pandas
+    - geopandas
     - pyproj >3.6.1
     - pyshp
     - pyyaml
@@ -47,6 +48,10 @@ requirements:
     - requests
     - scipy
     - shapely
+    - libgdal-netcdf
+    - libgdal-hdf5
+    - gmt
+    - pygmt
 
 tests:
   - python:
