@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.15"
+  version: "0.3.0"
   python_min: "3.12"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/globato/globato-${{ version }}.tar.gz
-  sha256: 9d616004b6c19fec71c06451e666049bae1954d7f1114377ef5fd2c677936f83
+  sha256: cec89691e2b41ea1e69bd785eaccafa7292b4ef3234722347f95cf692afad6e4
 
 build:
   number: 0
@@ -40,6 +40,7 @@ requirements:
     - matplotlib-base
     - numpy >1.24
     - pandas
+    - geopandas
     - pyproj >3.6.1
     - pyshp
     - pyyaml
@@ -47,6 +48,10 @@ requirements:
     - requests
     - scipy
     - shapely
+    - libgdal-netcdf
+    - libgdal-hdf5
+    - gmt
+    - pygmt
 
 tests:
   - python:
