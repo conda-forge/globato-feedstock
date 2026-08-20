@@ -32,7 +32,6 @@ requirements:
     - fetchez >=0.6.4
     - transformez >=0.4.2
     - click
-    - fiona
     - h5py
     - laspy
     # laszip is an optional dependency of laspy, expressed as laspy[lazrs,laszip] upstream
