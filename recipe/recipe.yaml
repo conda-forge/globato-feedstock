@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.3.6"
+  version: "0.3.7"
   python_min: "3.12"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/globato/globato-${{ version }}.tar.gz
-  sha256: 5a1b4b911ce0147da91831d5a04c648517511b1543b7f17ad78fa17150307fc3
+  sha256: 1b6ccadefe813e6dab9c70f181c9b10556faf0ec2af17b652ca9da8edfc10888
 
 build:
   number: 0
@@ -32,7 +32,6 @@ requirements:
     - fetchez >=0.6.4
     - transformez >=0.4.2
     - click
-    - fiona
     - h5py
     - laspy
     # laszip is an optional dependency of laspy, expressed as laspy[lazrs,laszip] upstream
