@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.4.0"
+  version: "0.5.0"
   python_min: "3.12"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/globato/globato-${{ version }}.tar.gz
-  sha256: 809f289ed130d6c3b46f622d04d3b7beb8cc26b421f78a311114fb25e33a1e87
+  sha256: 4f92bd5ae0dd7caa5c0c3a3496044c10ce3c6416d7f1f7d77e7eac23da9c6cf6
 
 build:
   number: 0
